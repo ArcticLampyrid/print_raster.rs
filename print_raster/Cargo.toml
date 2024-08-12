@@ -1,0 +1,23 @@
+[package]
+name = "print_raster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3"
+thiserror = "1"
+pin-project = "1"
+num_enum = "0.7"
+byteorder = "1"
+derive_more = { version = "1", features = ["from"] }
+
+[dev-dependencies]
+image = { version = "0.25", features = ["png"], default-features = false }
+tokio = { version = "1", features = [
+    "rt-multi-thread",
+    "macros",
+    "fs",
+], default-features = false }
+tokio-util = { version = "0.7", features = [
+    "compat",
+], default-features = false }

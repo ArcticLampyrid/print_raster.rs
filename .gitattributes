@@ -1,0 +1,11 @@
+*          text=auto
+*          eol=lf
+*.rs       text diff=rust
+*.toml     text diff=toml
+Cargo.lock text
+*.ras      binary
+*.bmp      binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.webp     binary
