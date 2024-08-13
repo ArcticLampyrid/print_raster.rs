@@ -7,7 +7,7 @@ pub struct Limits {
 }
 
 impl Limits {
-    pub const NO_LIMITS: &Self = &Self {
+    pub const NO_LIMITS: &'static Self = &Self {
         bytes_per_line: u64::MAX,
         bytes_per_page: u64::MAX,
     };
