@@ -1,4 +1,9 @@
 # print_raster
+
+[![crates.io](https://img.shields.io/crates/v/print_raster.svg)](https://crates.io/crates/print_raster)
+[![Released API docs](https://docs.rs/print_raster/badge.svg)](https://docs.rs/print_raster)
+[![BSD 3 Clause licensed](https://img.shields.io/badge/license-BSD%203%20Clause-blue)](./LICENSE.md)
+
 A crate for processing print raster images in Rust.
 
 ## Supported Formats
