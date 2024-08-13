@@ -2,6 +2,15 @@
 name = "print_raster"
 version = "0.1.0"
 edition = "2021"
+readme = "../README.md"
+license = "BSD-3-Clause"
+description = "A crate for processing print raster images in Rust"
+keywords = ["cups", "print", "pwg", "raster", "urf"]
+documentation = "https://docs.rs/print_raster"
+repository = "https://github.com/ArcticLampyrid/print_raster.rs/"
+authors = ["ArcticLampyrid <ArcticLampyrid@outlook.com>"]
+categories = ["multimedia::images", "multimedia::encoding"]
+exclude = ["tests/test_inputs/*", "tests/test_outputs/*"]
 
 [dependencies]
 futures = "0.3"
